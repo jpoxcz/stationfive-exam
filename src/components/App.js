@@ -111,7 +111,6 @@ class App extends Component {
                 menus={this.state.firstMenus}
                 enabled={this.state.enabledFirst}
                 onRadioButtonChange={this.onRadioButtonChange}
-                selectedGroup={this.state.selectedGroup}
                 group={1}
                 selectedButton={this.state.selectedFirst}
                 disabledMenus={[]}
@@ -121,7 +120,6 @@ class App extends Component {
                 menus={this.state.secondMenus}
                 enabled={this.state.enabledSecond}
                 onRadioButtonChange={this.onRadioButtonChange}
-                selectedGroup={this.state.selectedGroup}
                 group={2}
                 selectedButton={this.state.selectedSecond}
                 disabledMenus={this.state.secondDisabledMenus}
@@ -131,7 +129,6 @@ class App extends Component {
                 menus={this.state.thirdMenus}
                 enabled={this.state.enabledThird}
                 onRadioButtonChange={this.onRadioButtonChange}
-                selectedGroup={this.state.selectedGroup}
                 group={3}
                 selectedButton={this.state.selectedThird}
                 disabledMenus={this.state.thirdDisabledMenus}
