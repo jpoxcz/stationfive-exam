@@ -87,6 +87,7 @@ class App extends Component {
         enabledThird: true,
         selectedSecond: menu,
         selectedThird: null,
+        buttonSubmit: true,
         thirdDisabledMenus: this.setDisabledMenus(menu),
       });
     }
